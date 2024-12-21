@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: HighLight
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Page1
+    icon: {fileID: 2800000, guid: e70145ede0a48fd4ab00b1532e8a434c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6076c9bd6c2e88a47ad39df011de9773, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page2
+    icon: {fileID: 2800000, guid: 84f0e3d35220dc244a767cd29b2740ea, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 32d50c0cbae703a4390504605650bad8, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page3
+    icon: {fileID: 2800000, guid: 50e148006c37b204a9db8cdb9444fcf5, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 1a84e07dd23ce0941a514dbd2ee65801, type: 2}
+    subParameters: []
+    labels: []

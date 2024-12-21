@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Mouth2
+  m_EditorClassIdentifier: 
+  controls:
+  - name: mouth9
+    icon: {fileID: 2800000, guid: eca37d6f96197354db40c30ae8815161, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 9
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: mouth10
+    icon: {fileID: 2800000, guid: eca37d6f96197354db40c30ae8815161, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 10
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: mouth11
+    icon: {fileID: 2800000, guid: eca37d6f96197354db40c30ae8815161, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 11
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: mouth12
+    icon: {fileID: 2800000, guid: eca37d6f96197354db40c30ae8815161, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 12
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: mouth13
+    icon: {fileID: 2800000, guid: eca37d6f96197354db40c30ae8815161, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 13
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: mouth14
+    icon: {fileID: 2800000, guid: eca37d6f96197354db40c30ae8815161, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 14
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: mouth15
+    icon: {fileID: 2800000, guid: eca37d6f96197354db40c30ae8815161, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 15
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: mouth16
+    icon: {fileID: 2800000, guid: eca37d6f96197354db40c30ae8815161, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 16
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

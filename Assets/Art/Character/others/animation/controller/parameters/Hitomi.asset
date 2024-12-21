@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Hitomi
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Hitomi1
+    icon: {fileID: 2800000, guid: fc485168660baf849b87892be96fdf60, type: 3}
+    type: 102
+    parameter:
+      name: Hitomi
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 2761b93092410a14884c99303bc8699d, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hitomi2
+    icon: {fileID: 2800000, guid: fc485168660baf849b87892be96fdf60, type: 3}
+    type: 102
+    parameter:
+      name: Hitomi
+    value: 2
+    style: 0
+    subMenu: {fileID: 11400000, guid: 01011fb516a0a624580fac7160988c90, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hitomi3
+    icon: {fileID: 2800000, guid: fc485168660baf849b87892be96fdf60, type: 3}
+    type: 102
+    parameter:
+      name: Hitomi
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Hitomi4
+    icon: {fileID: 2800000, guid: fc485168660baf849b87892be96fdf60, type: 3}
+    type: 102
+    parameter:
+      name: Hitomi
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Hitomi5
+    icon: {fileID: 2800000, guid: fc485168660baf849b87892be96fdf60, type: 3}
+    type: 102
+    parameter:
+      name: Hitomi
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

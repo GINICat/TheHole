@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Mouth
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Page1
+    icon: {fileID: 2800000, guid: 76f93ade7ec16a04785a8819ce629970, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 2761b93092410a14884c99303bc8699d, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page2
+    icon: {fileID: 2800000, guid: 1947541c43296504a8fcc4ed0a864022, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 01011fb516a0a624580fac7160988c90, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page3
+    icon: {fileID: 2800000, guid: e207b27f441729643a43def8da7e1fcf, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 961e074fa1322094d9e35a75fb8619f9, type: 2}
+    subParameters: []
+    labels: []

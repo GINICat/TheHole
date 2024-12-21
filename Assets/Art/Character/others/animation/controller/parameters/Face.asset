@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Face
+  m_EditorClassIdentifier: 
+  controls:
+  - name: hitomi
+    icon: {fileID: 2800000, guid: ec37aaff6e381bf408af47a9ba5b430d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f808dd37fdef21d40915ae55bf4209d7, type: 2}
+    subParameters: []
+    labels: []
+  - name: Iris
+    icon: {fileID: 2800000, guid: 07dbbdb26cafed84e9e9a7e7a2f88127, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 063c52d277546aa4585e0a7ef2aa7124, type: 2}
+    subParameters: []
+    labels: []
+  - name: HighLight
+    icon: {fileID: 2800000, guid: bf0551740929f7c4183b8392c3998d1d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 19f55291adebe00498076844e3677eef, type: 2}
+    subParameters: []
+    labels: []
+  - name: Eye
+    icon: {fileID: 2800000, guid: 2b09212a163868f468b469384dc4aa62, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ed0139555a698be408647a003675061c, type: 2}
+    subParameters: []
+    labels: []
+  - name: EyeLashes
+    icon: {fileID: 2800000, guid: b099cae51803a2a439fe538bf0edc707, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 3369157d318aef8459f7e10c8140ae0c, type: 2}
+    subParameters: []
+    labels: []
+  - name: Eyebrow
+    icon: {fileID: 2800000, guid: 8b35443efa815564a832130896506e91, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f2478988082b7724ebd56132215bdb41, type: 2}
+    subParameters: []
+    labels: []
+  - name: Mouth
+    icon: {fileID: 2800000, guid: 77fc6b23b0afa6e44a87d9fe9df89f46, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 1b46b1798ac8d98499833d135f2a69c8, type: 2}
+    subParameters: []
+    labels: []
+  - name: Cheek
+    icon: {fileID: 2800000, guid: 630323de3ae729b4f9103ef2cd80ee8f, type: 3}
+    type: 102
+    parameter:
+      name: Cheak
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

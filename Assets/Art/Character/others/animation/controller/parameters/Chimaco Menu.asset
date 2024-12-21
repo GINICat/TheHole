@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Chimaco Menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Face Edit
+    icon: {fileID: 2800000, guid: 845f1abf36895b848bb172cbb563bb98, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 3
+    style: 0
+    subMenu: {fileID: 11400000, guid: 65a64ac9b59a4a740a3ec4d37c9cc819, type: 2}
+    subParameters: []
+    labels: []
+  - name: emotes
+    icon: {fileID: 2800000, guid: 5151a1129062e1849a4096deaaa864db, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: 11400000, guid: 995a803f782f2864985503d9fbef0181, type: 2}
+    subParameters: []
+    labels: []
+  - name: Ride
+    icon: {fileID: 2800000, guid: 54b99d8b63fe32943ae3bf06805d1c64, type: 3}
+    type: 102
+    parameter:
+      name: SitStar
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: sit height
+    icon: {fileID: 2800000, guid: ca0542eea37b6414e8f1e936b74423ec, type: 3}
+    type: 203
+    parameter:
+      name: SitEdit
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: SitH
+    labels: []
+  - name: Flying
+    icon: {fileID: 2800000, guid: 3ae17e492bc20e94784ba864a6f1e5cf, type: 3}
+    type: 102
+    parameter:
+      name: Flying
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Fly height
+    icon: {fileID: 2800000, guid: 2d4cc56011c763b4f9ce9b35b7a845bd, type: 3}
+    type: 203
+    parameter:
+      name: FlyEdit
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: FlyH
+    labels: []
+  - name: Bow
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: VRCEmote
+    value: 9
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

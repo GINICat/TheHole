@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Eye
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Page1
+    icon: {fileID: 2800000, guid: 72055c3d9f5fec342bad2e95887cb866, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 00b7ed5e47c2f2a49a6a70dbfc68e621, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page2
+    icon: {fileID: 2800000, guid: 4fe64c12493e3434eb153116c3ef550d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f2352996c75ffaf40af56b2d7659f4b5, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page3
+    icon: {fileID: 2800000, guid: 16b2cfd53a4f48243922f7a47615aa79, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 972185421bba008448681125a2c6045e, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page4
+    icon: {fileID: 2800000, guid: 51f527f893095124ebd4a77741b5bddf, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f11e207288810f84a9b887cdf48c50a7, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page5
+    icon: {fileID: 2800000, guid: 6e6100f86ff71664ba97c00467f24b1d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: bb67b5da8870e5247813894bc345cb8d, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page6
+    icon: {fileID: 2800000, guid: cddc7a7fbc011104cac92e2029a19e71, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6d00f7f91939c1d448b5502aa2961e25, type: 2}
+    subParameters: []
+    labels: []
+  - name: Page7
+    icon: {fileID: 2800000, guid: 22a28e713d206e841bc44cae89c19fa2, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: b262c6eda99995f4d8e50f394986cb57, type: 2}
+    subParameters: []
+    labels: []

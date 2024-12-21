@@ -26,11 +26,7 @@ public class GMPage : UIBase
     {
         allFuncs.Add("加100分", () =>
         {
-            ScoreManager.instance.AddScore(100);
-        });
-        allFuncs.Add("计时-5秒", () =>
-        {
-            LevelManager.instance.AddTime(-5f);
+            CurrencyManager.instance.AddScore(100);
         });
         allFuncs.Add("测试升级-洞口", () =>
         {

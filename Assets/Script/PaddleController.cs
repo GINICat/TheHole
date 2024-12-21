@@ -53,22 +53,22 @@ public class PaddleController : Observer
         {
             switch (controlType)
             {
-                case PaddleControlType.Default:
-                case PaddleControlType.Paw:
                 case PaddleControlType.Hammer:
-                    animator.SetBool("Catch", true);
-                    PlayPaddleTweenAnimation();
-                    if (controlType == PaddleControlType.Hammer)
-                    {
-                        PlayHammerAnimation();
-                    }
-                    break;
+                    PlayHammerAnimation();
+                    goto default;
                 case PaddleControlType.Stick:
                     isStickDown = true; // 标记Stick向下
                     PlayPaddleTweenAnimation();
                     break;
                 case PaddleControlType.Magnet:
                     isMagnetActive = true; // 激活Magnet
+                    break;
+                default:
+                    if (animator)
+                    {
+                        animator.SetBool("Catch", true);
+                    }
+                    PlayPaddleTweenAnimation();
                     break;
             }
         }
@@ -79,7 +79,10 @@ public class PaddleController : Observer
                 case PaddleControlType.Default:
                 case PaddleControlType.Paw:
                 case PaddleControlType.Hammer:
-                    animator.SetBool("Catch", false);
+                    if (animator)
+                    {
+                        animator.SetBool("Catch", false);
+                    }
                     ReleaseBall();
                     break;
                 case PaddleControlType.Stick:
@@ -173,11 +176,6 @@ public class PaddleController : Observer
         }
     }
 
-    void PlaySwingAnimation()
-    {
-        animator.SetTrigger("Swing"); // 触发挥杆动画
-    }
-
     void ActivateMagnet()
     {
         // 启动磁力吸引
@@ -203,7 +201,10 @@ public class PaddleController : Observer
 
     void PlayHammerAnimation()
     {
-        animator.SetTrigger("Hammer"); // 触发Hammer动画
+        if (animator)
+        {
+            animator.SetTrigger("Hammer"); // 触发Hammer动画
+        }
         ApplyHammerForce();
     }
 
@@ -226,7 +227,7 @@ public class PaddleController : Observer
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Ball") && grabbedBall == null && (animator.GetBool("Catch") || controlType == PaddleControlType.Magnet))
+        if (other.CompareTag("Ball") && grabbedBall == null && ((animator?.GetBool("Catch") ?? false) || controlType == PaddleControlType.Magnet))
         {
             GrabBall(other.gameObject);
         }

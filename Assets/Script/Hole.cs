@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class Hole : Observer
 {
-    private ScoreManager scoreManager;
+    private CurrencyManager _currencyManager;
 
     void Start()
     {
-        scoreManager = FindObjectOfType<ScoreManager>();
+        _currencyManager = FindObjectOfType<CurrencyManager>();
         AddEventListener(EventName.HoleScaleLevelUp, args =>
         {
             Vector3 newScale = transform.parent.localScale;
@@ -23,11 +23,11 @@ public class Hole : Observer
         BallMovement ball = other.gameObject.GetComponent<BallMovement>();
         if (ball != null)
         {
-            scoreManager.AddScore(ball.pointValue);
+            _currencyManager.AddScore(ball.pointValue);
             // 脚本写死加两倍
             if (ball.CompareTag("ShiningBall"))
             {
-                scoreManager.AddScore(ball.pointValue * 2);
+                _currencyManager.AddScore(ball.pointValue * 2);
             }
             ball.PlayHoleSound();
             Destroy(other.gameObject);

@@ -19,6 +19,8 @@ public enum PerkType
 public class PerkController : Observer
 {
     private PerkType perkType;
+    [SerializeField]
+    private Text currencyText;
 
     private void Start()
     {
@@ -59,10 +61,18 @@ public class PerkController : Observer
             transform.Find("title").GetComponent<Text>().text = "闪光球升级";
             transform.Find("desc").GetComponent<Text>().text = "略微提升出现闪光球的几率";
         }
+        currencyText.text = GetPrice().ToString();
     }
 
     private void ProcessLevelUp()
     {
+        if (CurrencyManager.instance.Currency < GetPrice())
+        {
+            return;
+        }
+        
+        CurrencyManager.instance.Currency -= GetPrice();
+        
         if (perkType == PerkType.ExpandHole)
         {
             EventManager.SendNotification(EventName.HoleScaleLevelUp);
@@ -87,5 +97,18 @@ public class PerkController : Observer
         {
             EventManager.SendNotification(EventName.ShiningBallLevelUp);
         }
+    }
+
+    private int GetPrice()
+    {
+        return perkType switch
+        {
+            PerkType.ExpandHole    => 1000,
+            PerkType.MagnifyBall   => 100,
+            PerkType.MoneyIncrease => 300,
+            PerkType.HighScoreBall => 200,
+            PerkType.ShiningBall   => 500,
+            _                      => throw new ArgumentOutOfRangeException(nameof(perkType), perkType, null)
+        };
     }
 }

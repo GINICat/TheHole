@@ -35,9 +35,7 @@ public class LevelUpPage : UIBase
         {
             n--;
             int k = rng.Next(n + 1);
-            int value = numbers[k];
-            numbers[k] = numbers[n];
-            numbers[n] = value;
+            (numbers[k], numbers[n]) = (numbers[n], numbers[k]);
         }
         return numbers;
     }

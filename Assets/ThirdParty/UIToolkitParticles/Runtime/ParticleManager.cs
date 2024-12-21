@@ -46,7 +46,7 @@ namespace Kamgam.UIToolkitParticles
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode && !ParticleManagerUpdater.HasInstance)
             {
-                _instance.Start();
+                Instance.Start();
             }
         }
 

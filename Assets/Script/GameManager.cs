@@ -16,9 +16,6 @@ public class GameManager : Singleton<GameManager>
     private int currentLevel = 1;
     private int targetScore = 100;
 
-    private ShopManager shopManager;
-    private List<ShopManager.BallInfo> unlockedBalls = new List<ShopManager.BallInfo>();
-
     protected override void Awake()
     {
         base.Awake();
@@ -29,7 +26,6 @@ public class GameManager : Singleton<GameManager>
     {
         Time.timeScale = 1f;
         // DontDestroyOnLoad(transform.parent.gameObject);
-        shopManager = FindObjectOfType<ShopManager>();
         InitializeGame();
     }
 
@@ -59,45 +55,12 @@ public class GameManager : Singleton<GameManager>
 
     void UpdateUI()
     {
-        scoreText.text = $"{ScoreManager.instance.GetScore()}/{targetScore}";
+        scoreText.text = $"{CurrencyManager.instance.Currency}/{targetScore}";
         levelText.text = $"{currentLevel}";
     }
 
-    void OpenShop()
+    public void OpenLevelUp()
     {
-        shopManager.OpenShop();
-    }
-
-    int CalculateReward()
-    {
-        return ScoreManager.instance.GetScore() / 10;
-    }
-
-    public void AddUnlockedBall(ShopManager.BallInfo ball)
-    {
-        unlockedBalls.Add(ball);
-    }
-
-    public GameObject GetRandomUnlockedBall()
-    {
-        if (unlockedBalls.Count > 0)
-        {
-            int randomIndex = Random.Range(0, unlockedBalls.Count);
-            return unlockedBalls[randomIndex].prefab;
-        }
-        return null;
-    }
-
-    public void StartNextRound()
-    {
-        shopManager.CloseShop();
-        InitializeGame();
-    }
-
-    void PlayTimerTweenAnimation()
-    {
-        // 播放DOTween动画，例如缩放效果
-        timerText.transform.DOKill(); // 停止任何现有的动画
-        timerText.transform.DOScale(1.5f, 0.5f).SetLoops(2, LoopType.Yoyo);
+        UIManager.instance.CreateUI<LevelUpPage>();
     }
 }

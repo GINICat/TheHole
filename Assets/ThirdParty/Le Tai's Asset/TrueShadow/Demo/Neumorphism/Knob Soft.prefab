@@ -1,12 +1,12 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!1 &64004775889377773
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 64004775889377772}
   - component: {fileID: 64004775889377778}
@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1012355844740128403}
   - component: {fileID: 7662926040208366277}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,11 +176,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 64004776028512857}
   - component: {fileID: 64004776028512856}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: Knob Soft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +245,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 2283675534218946039}
   - component: {fileID: 2547620154589092248}
@@ -251,6 +253,7 @@ GameObject:
   - component: {fileID: 7840185724858357741}
   - component: {fileID: 3077893602349586436}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: Recess
   m_TagString: Untagged
   m_Icon: {fileID: 0}

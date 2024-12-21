@@ -4,5 +4,6 @@ Temp
 Logs
 obj
 /*.csproj
-.idea
+[Bb]uilds/*
+[Bb]uild/*
 /*.sln

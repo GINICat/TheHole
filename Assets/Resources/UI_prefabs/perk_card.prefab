@@ -1,17 +1,18 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!1 &4694766480090361335
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 7477278934019287792}
   - component: {fileID: 301066744015753788}
   - component: {fileID: 627393189681935748}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: desc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,13 +86,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 3737751469474567214}
   - component: {fileID: 8164522074335575164}
   - component: {fileID: 8919261477637269244}
   - component: {fileID: 937492759989681577}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +197,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 8661464230009721998}
   - component: {fileID: 4696466708667392243}
@@ -203,6 +205,7 @@ GameObject:
   - component: {fileID: -4310872203875214609}
   - component: {fileID: 8788189448434502626}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: perk_card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,12 +334,13 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 5740080417450810114}
   - component: {fileID: 7458384718525801635}
   - component: {fileID: 2930419662576985076}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,17 +1,18 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!1 &3857333692135318516
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 3857333692135318517}
   - component: {fileID: 3857333692135318515}
   - component: {fileID: 3857333692135318514}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: Photo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +82,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 3857333692527948079}
   - component: {fileID: 3857333692527948074}
@@ -91,6 +92,7 @@ GameObject:
   - component: {fileID: 277916693385783928}
   - component: {fileID: 4350151121910975764}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}

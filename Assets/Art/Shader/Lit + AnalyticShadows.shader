@@ -174,7 +174,7 @@ Shader "Universal Render Pipeline/Lit + AnalyticShadows"
 
 			#pragma vertex LitPassVertex
 			#pragma fragment LitPassFragmentUASS //<
-			#include "Assets/UnityAnalyticSoftShadows/URP Lit Shader/Overrides.hlsl" //<
+			#include "Overrides.hlsl" //<
 
 			half4 LitPassFragmentUASS(Varyings input) : SV_Target
 			{

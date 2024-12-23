@@ -16,6 +16,8 @@ public class Hole : Observer
             newScale = new Vector3(newScale.x + 0.1f, newScale.y + 0.1f, newScale.z + 0.1f);
             transform.parent.localScale = newScale;
         });
+
+        _ = Hotel.Scripts.ResourceManager.Instance;
     }
 
     void OnTriggerEnter(Collider other)

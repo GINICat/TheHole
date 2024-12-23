@@ -7,3 +7,5 @@ obj
 [Bb]uilds/*
 [Bb]uild/*
 /*.sln
+/Assets/SceneDependencyCache/
+/Assets/SceneDependencyCache.meta

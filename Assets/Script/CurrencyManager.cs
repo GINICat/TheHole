@@ -3,6 +3,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Hotel.Scripts;
 
 public class CurrencyManager : Singleton<CurrencyManager>
 {
@@ -14,7 +15,7 @@ public class CurrencyManager : Singleton<CurrencyManager>
         get => _currency;
         set
         {
-            _currency = value;
+            ResourceManager.Instance.Money =  _currency = value;
             UpdateCurrencyText();
         }
     }

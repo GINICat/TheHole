@@ -1,0 +1,16 @@
+﻿{
+    "name": "Hotel.ManagerDisplay",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e6b9ddb1140541dea3209d8c62c7bbba"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
